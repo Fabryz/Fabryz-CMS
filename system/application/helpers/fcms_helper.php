@@ -23,7 +23,7 @@ if ( ! function_exists('replace_accents')) {
     }
 }
 
-//transforms accents into letters, used in slug creation
+//cut the given string to the length passed as input, then add a tail string
 if ( ! function_exists('cut_text')) {
     function cut_text($str, $max_length, $tail_str = "...") {
         if (strlen($str) > $max_length) {

@@ -15,9 +15,9 @@ class Site extends Controller {
      *              1       2       3
      * Home      /site/
      * Pages X   /site/X
-     * Posts X   /site/X
-     * Cats X    /site/category/X
-     * Users X   /site/user/X
+     * Posts X   /site/posts/X
+     * Cats X    /site/categories/X
+     * Users X   /site/users/X
       *
       * @todo: add pagination
      *
