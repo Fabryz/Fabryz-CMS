@@ -5,3 +5,7 @@ This is my first attempt in making a simple CMS with Codeigniter Framework.
 h2. Stuff
 
 Trying to figure out how git works, stay tuned
+
+h2. Crossing fingers
+
+Push this stuff up to github, now!
