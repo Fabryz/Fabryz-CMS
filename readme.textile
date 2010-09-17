@@ -1,11 +1,27 @@
 h1. FabryzCMS
 
 This is my first attempt in making a simple CMS with Codeigniter Framework.
+There are many planned features, obviously for now it's not advised to use this in a production enviroment,
+as this has been made only by learning and testing purposes.
 
-h2. Stuff
+h2. Install instructions
 
-Trying to figure out how git works, stay tuned
+1- Grab and put "fabryz_cms" on your server
+2- Open the file "fabryz_cms.sql" located on the root directory, run the sql on your preferred database
+3- Open the file "system/application/config/config.php" and edit "base_url" with the URL of your site
+4- Open the file "system/application/config/database.php" and edit with your db parameters, as hostname, db name, db username and password
+5- Reach the address specified on step 3 to access the frontend of the site, add "admin" at the end of the URL to access the backend of the application
+Example: http://www.yoursite.com/fabryz_cms/admin
 
-h2. Crossing fingers
+You'll see there is some demo stuff preloaded about CompanyXYZ, some categories, articles and fake pages.
+Also three users with different privileges:
 
-Push this stuff up to github, now!
+*Admin – "Admin" permissions
+*Mariorossi – "Editor" permissions
+*Carlobianchi – "Writer" permissions
+
+For semplicity every user has "Password" set as password.
+
+h2. Credits
+
+FabryzCMS has been developed by Fabrizio Codello.
